@@ -22,7 +22,6 @@ export default function RootLayout({
       <head>
         <meta
           name="impact-site-verification"
-          content={IMPACT_VERIFICATION_ID}
           {...{ value: IMPACT_VERIFICATION_ID }}
         />
       </head>
