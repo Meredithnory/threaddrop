@@ -20,8 +20,7 @@ export default function RootLayout({
       <head>
         <meta
           name="impact-site-verification"
-          // Impact.com requires `value` (not the standard `content` attribute)
-          {...{ value: "c864ff41-a166-4b3f-914b-5190ec1bee4c" }}
+          content="c864ff41-a166-4b3f-914b-5190ec1bee4c"
         />
       </head>
       <body className={`${inter.className} antialiased`}>{children}</body>
