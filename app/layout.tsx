@@ -4,6 +4,8 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const IMPACT_VERIFICATION_ID = "c864ff41-a166-4b3f-914b-5190ec1bee4c";
+
 export const metadata: Metadata = {
   title: "ThreadDrop | AI Outfits from Real Store Deals",
   description:
@@ -20,7 +22,8 @@ export default function RootLayout({
       <head>
         <meta
           name="impact-site-verification"
-          {...{ value: "c864ff41-a166-4b3f-914b-5190ec1bee4c" }}
+          content={IMPACT_VERIFICATION_ID}
+          {...{ value: IMPACT_VERIFICATION_ID }}
         />
       </head>
       <body className={`${inter.className} antialiased`}>{children}</body>
